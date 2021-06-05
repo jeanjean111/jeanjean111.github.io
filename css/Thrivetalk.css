@@ -64,16 +64,10 @@ body {
 	height: 677px;	
 	/*z-index: 0;*/
 	background-size: cover;
-	background-image: url("../img/Discovery_green.jpg");
-/*	background-image: url("../img/linkedin-sales-navigator-406825.png");,
-						url("../img/Mask.png");*/
-	-webkit-mask-image: url('img/batman3_1000.png');
-	-moz-mask-image: url('img/batman3_1000.png');
-	-ms-mask-image: url('img/batman3_1000.png');
-	mask-image: url(../img/batman3_1000.png);
+	background-image: url("../img/linkedin-sales-navigator-406825.png");
 	mask-repeat: space;
 	/*mix-blend-mode: hard-light;*/
-	/*mask-image: url("../img/Mask.png");*/
+	mask: url("../img/Mask.png");
 }
 .im img {
 	/*border-radius: 500px 312.159px;	*/
