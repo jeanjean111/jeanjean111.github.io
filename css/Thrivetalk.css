@@ -1,0 +1,110 @@
+html {
+	font-size: 10px;
+	box-sizing: border-box;
+	font-family: Larsseit, sans-serif;
+}
+body {
+	width: 144rem;
+	margin: auto;
+}
+.flex {
+	display: flex;
+}
+.text-column {
+	flex-direction: column;
+	justify-content: space-around;
+	width: 30%;
+	margin: 0 auto;
+}
+.top-section {
+	background-color: #F4F9E2;
+	position: absolute;
+	width: 1117px;
+	height: 840px;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+}
+.menu {
+	margin-top: 2.7rem;
+	margin-left: 18rem;
+}
+.menu__logo {
+	color: #62D0DF;
+	font-size: 2.4rem;
+}
+.menu__items {
+	margin: 0 30rem 0 30rem;
+}
+.menu__items nav ul {
+	justify-content: space-between;
+}
+.menu__items nav ul li {
+	list-style-type: none;
+	margin-right: 2rem;
+}
+.menu__items-decoration {
+	text-decoration: none;
+	color: #22356F;
+	font-size: 1.4rem;
+}
+.menu__contacts {
+	width: 150px;
+	height: 50px;
+	font-size: 1.4rem;
+	color: #fff;
+	background-color: #62D0DF;
+	border-radius: 50px;
+	align-items: center;
+	justify-content: center; 
+}
+.im {
+/*	border-radius: 312.159px;*/	
+	width: 643px;
+	height: 677px;	
+	/*z-index: 0;*/
+	background-size: cover;
+	background-image: url("../img/Discovery_green.jpg");
+/*	background-image: url("../img/linkedin-sales-navigator-406825.png");,
+						url("../img/Mask.png");*/
+	-webkit-mask-image: url('img/batman3_1000.png');
+	-moz-mask-image: url('img/batman3_1000.png');
+	-ms-mask-image: url('img/batman3_1000.png');
+	mask-image: url(../img/batman3_1000.png);
+	mask-repeat: space;
+	/*mix-blend-mode: hard-light;*/
+	/*mask-image: url("../img/Mask.png");*/
+}
+.im img {
+	/*border-radius: 500px 312.159px;	*/
+	/*width: 1126px;*/
+/*	height: 500px;	
+	z-index: 0;*/
+
+}
+.im__mask1 {
+	position: absolute;
+	width: 807.71px;
+	height: 544.93px;
+	left: 540px;
+	top: 70.66px;
+	/*background: #EDFDFF;*/
+	border-radius: 312.159px;
+	transform: matrix(-0.5, 0.87, 0.87, 0.5, 0, 0);
+	z-index: 0;
+	
+
+}
+.im_mask2 {
+	position: absolute;
+	width: 807.71px;
+	height: 544.93px;
+	left: 540px;
+	top: -52.57px;
+
+	background: #FFE2DE;
+	opacity: 0.3;
+	border-radius: 312.159px;
+	transform: matrix(-0.87, 0.5, 0.5, 0.87, 0, 0);
+	z-index: 2;
+}
